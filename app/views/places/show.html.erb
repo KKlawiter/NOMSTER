@@ -4,31 +4,23 @@
   	<br/><br/>
   	<p><%= @place.description %></p>
 
-  	<style>
-	  #map {
-	    height: 300px;
-	  }
-	</style>
-  	</head>
-  	<body>
-  	<% if @place.latitude.present? && @place.longitude.present? %>
-	  	<script>
+  	<!-- map -->
+	<% if @place.latitude.present? && @place.longitude.present? %>
 
-		    function initMap() {
-		      var myLatLng = {lat: <%= @place.latitude %>, lng: <%= @place.longitude %>};
-
-		      var map = new google.maps.Map(document.getElementById('map'), {
-		        zoom: 12,
-		        center: myLatLng
-		      });
-
-		      var marker = new google.maps.Marker({
-		        position: myLatLng,
-		        map: map,
-		        title: 'Hello World!'
-		      });
-		    }
-	  	</script>
+	    <script>
+	      function initMap() {
+	        var myLatLng = {lat: <%= @place.latitude %>, lng: <%= @place.longitude %>};
+	        var map = new google.maps.Map(document.getElementById('map'), {
+	          zoom: 16,
+	          center: myLatLng
+	        });
+	        var marker = new google.maps.Marker({
+	          position: myLatLng,
+	          map: map,
+	          title: 'Map'
+	        });
+	      }
+	    </script>
 
 	  	<script async defer
 	      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWmkLQqGMGhwp5Yd1NzrJx7S9uPD8bhAs&
