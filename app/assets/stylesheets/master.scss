@@ -45,19 +45,21 @@ body {
 
 
 html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 #map {
-    height: 300px;
-    width: 600px;
-    border: 1px solid #22585c;
+  height: 300px;
+  width: 600px;
+  border: 1px solid #22585c;
+  margin: 0;
+  padding: 0;
 }
 
 .clear {
-    clear: both;
+  clear: both;
 }
 
 blockquote {
