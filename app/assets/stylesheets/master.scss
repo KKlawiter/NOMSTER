@@ -22,19 +22,21 @@ h1, h2, h3, h4, h5, h6 {
 body {
   background: image_url('halftone.png');
   font-family: 'Open Sans 600', sans-serif;
-  text-align: center;
 }
 
 .navbar {
   background: image_url('dark-grey-terrazzo.png');
   box-shadow: 0px 1px 3px #2a2a2a;
+  padding: 2px 8px 2px 8px;
 }
 
 .navbar-inverse .navbar-brand {
   color: #00FFF7;
   font-family: 'Open Sans 600', sans-serif;
-  font-weight: 600;
+  font-weight: 800;
   letter-spacing: -0.3px;
+  padding: 2px 8px 2px 8px;
+  font-size: 2em;
 }
 
 .invalid-feedback {
@@ -129,21 +131,21 @@ img:hover {
   .current {
     font-style: normal;
     font-weight: bold;
-    background: #2e6ab1;
+    background: #FFFFFF;
     color: white;
-    border: 1px solid #2e6ab1;
+    border: 1px solid #FFFFFF;
   }
   a {
     text-decoration: none;
-    color: #105cb6;
-    border: 1px solid #9aafe5;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
     &:hover, &:focus {
       color: #FFFFFF;
       border-color: #FFFFFF;
     }
   }
   .page_info {
-    background: #2e6ab1;
+    background: #FFFFFF;
     color: white;
     padding: 0.4em 0.6em;
     width: 22em;
@@ -151,7 +153,7 @@ img:hover {
     text-align: center;
     b {
       color: #FFFFFF;
-      background: #2e6ab1 + 60;
+      background: #FFFFFF + 60;
       padding: 0.1em 0.25em;
     }
   }
