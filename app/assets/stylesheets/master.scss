@@ -115,7 +115,8 @@ img:hover {
 .pagination {
   background: white;
   cursor: default;
-  height: 22px;
+  height: 50px;
+  background: image_url('dark-grey-terrazzo.png');
   a, span, em {
     padding: 0.2em 0.5em;
     display: block;
