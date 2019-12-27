@@ -76,3 +76,7 @@ gem "geocoder"
 gem "figaro"
 gem 'carrierwave', '~> 1.0'
 gem 'fog-aws'
+
+## Gemfile for Rails 3+
+gem 'will_paginate', '~> 3.1.0'
+gem 'will_paginate-bootstrap'
