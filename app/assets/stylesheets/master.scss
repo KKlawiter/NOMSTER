@@ -12,16 +12,19 @@
   margin-top: 10px;
   margin-bottom: 15px;
   padding: 20px;
+  text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin:0;
   padding:0;
+  text-align: center;
 }
 
 body {
   background: image_url('halftone.png');
   font-family: 'Open Sans 600', sans-serif;
+  text-align: center;
 }
 
 .navbar {
@@ -52,10 +55,10 @@ html, body {
 
 #map {
   height: 300px;
-  width: 600px;
   border: 1px solid #22585c;
-  margin: 0;
-  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 
 .clear {
